@@ -47,5 +47,5 @@ while(run):
         print("-----------\n")
     except Exception as e:
         print(e)
-        print("Sorry, that's not valid input!")
+        print("Sorry, that's not valid input")
 

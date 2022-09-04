@@ -1,0 +1,16 @@
+Total bytecount: 16475
+Files list:
+--------------
+testzip.zip
+ospathutils_finished.py
+Results
+newfile.txt
+challenge_solution.py
+files_start.py
+archive.zip
+shell_start.py
+ospathutils_start.py
+files_finished.py
+textfile.txt.bak
+shell_finished.py
+challenge_start.py
