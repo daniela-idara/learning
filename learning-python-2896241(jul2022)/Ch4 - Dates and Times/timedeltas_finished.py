@@ -41,3 +41,7 @@ if afd < today:
 time_to_afd = afd - today
 print ("It's just", time_to_afd.days, "days until next April Fools' Day!")
 
+# What is tomorrows date?
+today = date.today()
+tomorrow = today+timedelta(days=1)
+print("Tomorrow is", tomorrow)

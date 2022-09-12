@@ -52,7 +52,7 @@ while(run):
         
 
         while selDay > 6:
-            print ("Invalid selection")
+            print ("Invalid selection. Select 0 - 6")
             selDay = input("Enter day by number: ")
             selDay = int(selDay)
 
@@ -60,12 +60,13 @@ while(run):
             selYr = input("Enter year: ")
             selYr = int(selYr)
             selMo = input("Enter month by number: ")
-            selMo = int(selMo)
-        
-         
-        
+            selMo = int(selMo) 
 
-        # print("\nYou want to know how many", calendar.day_name[selDay]+"s exist in", calendar.month_name[selMo], selYr)
+        while selMo > 12:
+            print ("Invalid selection. Select 0 - 12")
+            selMo = input("Enter month by number: ")
+            selMo = int(selMo)  
+        print("\nYou want to know how many", calendar.day_name[selDay]+"s exist in", calendar.month_name[selMo], selYr)
 
         # c = calendar.TextCalendar(calendar.SUNDAY)
         # str = c.formatmonth(selYr, selMo, 0, 0)

@@ -32,7 +32,10 @@ def main():
     t = datetime.time(datetime.now())
     print("The current time is", t)
  
-
+    # TODO: Get tomorrow's date
+    today = date.today()
+    tomorrow = date(today.year,today.month,today.day+1)
+    print("Tomorrow is", tomorrow)
   
 if __name__ == "__main__":
     main()
